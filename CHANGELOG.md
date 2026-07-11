@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### Added
+- Top navigation bar with Settings and About entry-point buttons
+- Keyboard-accessible top-nav buttons with semantic `role="group"` landmark
+- Responsive top-nav layout that wraps cleanly below 1080px
+
 ## [0.2.0] — Position Sets and Page Review
 
 ### Added
