@@ -1,23 +1,29 @@
 ---
 name: Experiment
-about: Exploring an idea without commitment to implement
+about: Explore an idea without committing to production implementation
 title: "[Experiment] "
-labels: experiment
-assignees: ''
+labels: "experiment, needs:decision"
+assignees: ""
 ---
+
+## Question
+
+What are we trying to learn?
 
 ## Hypothesis
 
-What are we testing or exploring?
+What do we expect to find?
 
-## Approach
+## Method
 
-How will we explore this?
+How should the experiment be run?
 
-## What success looks like
+## Decision criteria
 
-How will we know if this is worth pursuing?
+- [ ] Continue
+- [ ] Park
+- [ ] Reject
 
 ## Notes
 
-Any research, references, or context.
+Constraints, references, or prototype ideas.

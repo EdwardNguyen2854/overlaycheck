@@ -1,23 +1,37 @@
 ---
-name: AI agent run
-about: Record an AI agent implementation session
+name: AI Run
+about: Record an AI agent planning, build, review, or fix run
 title: "[AI Run] "
-labels: task
-assignees: ''
+labels: "task"
+assignees: ""
 ---
 
-## Issue
+## Linked issue or PR
 
-Link to the issue being implemented.
+Link the source issue, plan, or pull request.
 
-## Branch / Worktree
+## Mode
 
-What branch or worktree was used.
+- [ ] Capture
+- [ ] Plan
+- [ ] Build
+- [ ] Review
+- [ ] Fix Review
+- [ ] Ship
 
-## Summary
+## Inputs
 
-Brief summary of what was done.
+Agent version, branch, prompt, fixed inputs, or constraints.
+
+## Outcome
+
+What changed or what was learned?
+
+## Validation
+
+- [ ] Relevant commands were run or intentionally skipped with a reason.
+- [ ] Results were posted back to the linked issue or PR.
 
 ## Notes
 
-Any issues encountered, decisions made, or things to follow up on.
+Follow-ups, blockers, or handoff context.

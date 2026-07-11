@@ -1,35 +1,36 @@
 ---
-name: Bug report
-about: Something is broken or wrong
+name: Bug
+about: Report something broken or wrong
 title: "[Bug] "
-labels: bug
-assignees: ''
+labels: "bug"
+assignees: ""
 ---
 
-## Describe the bug
+## What happened
 
-A clear description of what the bug is.
-
-## Steps to reproduce
-
-1. Go to '...'
-2. Click on '...'
-3. See error
+Describe the observed behavior.
 
 ## Expected behavior
 
-What should happen instead.
+Describe what should have happened instead.
 
-## Screenshots
+## Steps to reproduce
 
-If applicable, add screenshots to help explain.
+1.
+2.
+3.
 
 ## Environment
 
 - Browser:
 - OS:
-- Version:
+- PDF type or source, if relevant:
+
+## Acceptance criteria
+
+- [ ] The issue is reproduced or clearly explained.
+- [ ] The fix is verified against the reported workflow.
 
 ## Notes
 
-Any additional context.
+Screenshots, console errors, or sample files if safe to share.
