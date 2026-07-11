@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Layers3, ShieldCheck } from 'lucide-react';
+import { Info, Layers3, Settings, ShieldCheck } from 'lucide-react';
 import { OverlayControls } from './components/OverlayControls';
 import { PageControls } from './components/PageControls';
 import { PdfCompareViewer } from './components/PdfCompareViewer';
@@ -537,11 +537,32 @@ export default function App() {
             <p className="topbar-subtitle">PDF alignment workspace</p>
           </div>
         </div>
-        <div className="topbar-meta">
-          {hasAnyPdf ? <span className="review-progress">{reviewedCount} reviewed</span> : null}
-          <div className="privacy-pill">
-            <ShieldCheck size={16} />
-            Local-only
+        <div className="topbar-actions">
+          <div className="topbar-nav" role="group" aria-label="Application">
+            <button
+              type="button"
+              className="topbar-nav__button"
+              onClick={() => setStatus('Settings entry point selected.')}
+            >
+              <Settings size={15} aria-hidden="true" />
+              Settings
+            </button>
+            <button
+              type="button"
+              className="topbar-nav__button"
+              onClick={() => setStatus('About entry point selected.')}
+            >
+              <Info size={15} aria-hidden="true" />
+              About
+            </button>
+          </div>
+          {statusMessage ? <span className="topbar-nav-status" role="status">{statusMessage}</span> : null}
+          <div className="topbar-meta">
+            {hasAnyPdf ? <span className="review-progress">{reviewedCount} reviewed</span> : null}
+            <div className="privacy-pill">
+              <ShieldCheck size={16} />
+              Local-only
+            </div>
           </div>
         </div>
       </header>

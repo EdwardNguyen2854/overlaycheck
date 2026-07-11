@@ -5,7 +5,7 @@ The workflow for implementing features from issue to merge.
 ## Loop overview
 
 1. **Capture** → file an issue with context
-2. **Triage** → label, prioritize, assign milestone
+2. **Triage** → label, prioritize, and assign a milestone only when enabled
 3. **Plan** → write a plan or spec
 4. **Start** → create branch or worktree
 5. **Build** → implement the approved plan
@@ -27,7 +27,7 @@ Use `/capture` or file an issue directly. Include:
 
 ### 2. Triage
 - Assign type, area, priority labels
-- Set milestone
+- Set a milestone only when enabled in `docs/agents/issue-tracker.md`
 - Mark `needs:plan` if approach isn't obvious
 
 ### 3. Plan
@@ -42,7 +42,7 @@ Use `/capture` or file an issue directly. Include:
 ### 5. Build
 - Implement only what the plan describes
 - Do not add extra scope
-- Run `npm run typecheck` before停下来
+- Run `npm run typecheck` before stopping
 
 ### 6. Review
 - Use `/review` to check against the issue

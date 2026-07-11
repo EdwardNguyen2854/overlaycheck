@@ -1,25 +1,33 @@
 ---
-name: Feature request
-about: Suggest a new capability for OverlayCheck
+name: Feature
+about: Capture a new user-facing capability
 title: "[Feature] "
-labels: feature
-assignees: ''
+labels: "feature, needs:plan"
+assignees: ""
 ---
 
 ## Problem
 
-What user problem does this solve? Who is affected?
+What user problem should this solve?
 
-## Expected behavior
+## Proposal
 
-What should happen when this feature is complete?
+What should change?
 
 ## Acceptance criteria
 
-- [ ] Criterion 1
-- [ ] Criterion 2
-- [ ] Criterion 3
+- [ ]
+
+## Scope
+
+### In
+
+-
+
+### Out
+
+-
 
 ## Notes
 
-Any additional context, mockups, or references.
+Links, sketches, constraints, or follow-up questions.
