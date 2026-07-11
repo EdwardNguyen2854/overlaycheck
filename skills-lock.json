@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "skills": {
+    "build": {
+      "source": "edwardnguyen2854/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/build/SKILL.md",
+      "computedHash": "efea0f239a71759bae221c899727cd6255129073a42b34cc409002d26f73c3f2"
+    },
+    "capture": {
+      "source": "edwardnguyen2854/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/capture/SKILL.md",
+      "computedHash": "34a2725c88f398085baa7b3791da713d206d0ea59d6fb43eb3e452addda446b6"
+    },
+    "discover": {
+      "source": "edwardnguyen2854/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/discover/SKILL.md",
+      "computedHash": "caac013160eb76e85031252d0b812479b88b58f4f8ff5f1288eead46cc79a2d2"
+    },
+    "fix-review": {
+      "source": "edwardnguyen2854/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/fix-review/SKILL.md",
+      "computedHash": "758015425872a564bfb80b3be90832c5393509c5a2d242a4c3bbc26657f19ea3"
+    },
+    "handoff": {
+      "source": "edwardnguyen2854/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/handoff/SKILL.md",
+      "computedHash": "135a614374a8623743b2e07ffa206634c1caedacf7b9194c056cde495735eec3"
+    },
+    "plan": {
+      "source": "edwardnguyen2854/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/plan/SKILL.md",
+      "computedHash": "84de5c640b9b9da40601b3da0fb8cc94a301c6a0963bdfe325771698be2ccfb4"
+    },
+    "review": {
+      "source": "edwardnguyen2854/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/review/SKILL.md",
+      "computedHash": "ef1e94a646b8d545e27bab858793c86b2200e887f9ca40b7795b3a870f775787"
+    },
+    "setup": {
+      "source": "edwardnguyen2854/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/setup/SKILL.md",
+      "computedHash": "e058d20b38676696fffdfa51ec7b99190606063d4205448935604b1e88fab32a"
+    },
+    "ship": {
+      "source": "edwardnguyen2854/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/ship/SKILL.md",
+      "computedHash": "2e8d254a92840ac0c4a410b43beb324c944af3dff2f6a25d918bc1e84975c82a"
+    },
+    "spec": {
+      "source": "edwardnguyen2854/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/spec/SKILL.md",
+      "computedHash": "9d0f594b9738216cd16f16c32359b195f43a19ceb63a86f43f52b4e0f40c8667"
+    },
+    "start": {
+      "source": "edwardnguyen2854/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/start/SKILL.md",
+      "computedHash": "b4e24fb47402b450416a13e806d6993c9a857333c4f73f4bfff514afeb082744"
+    }
+  }
+}
